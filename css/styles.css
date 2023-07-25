@@ -1,3 +1,7 @@
+.box{
+    background-color: #cccccc;
+    }
+
 .draganddrop{
     width: 300px;
     height: 30px;
@@ -11,4 +15,8 @@
     background: linear-gradient(to bottom, #9e9999, #605353);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  .draganddrop:hover {
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.5);
+    transform: translateY(-1px);
   }
